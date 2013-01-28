@@ -1,10 +1,37 @@
 body {
-
   font-family: 'Ubuntu', sans-serif;
-
   background: #ccffcc;
   
 }
+.content {
+  width: 960px;
+  margin: auto;
+}
+
 .header {
   background: blue;
+  padding:10px;
+  font-size:20pt;
+  font-weight:bold;
+  border: 5px solid black;
+}
+
+.left_side {
+  background: magenta;
+  min-height:300px;
+  width:720px;
+  float: left;
+}
+
+.right_side {
+  background: white;
+  padding:0 5px 0 5px;
+  /* or padding: 0 5px; */
+  min-height:300px;
+  width:230px;
+  float: right;
+}
+
+.right_side p{
+  text-align: center;
 }
