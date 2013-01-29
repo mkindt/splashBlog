@@ -16,7 +16,21 @@ body {
   border: 5px solid black;
 }
 
+.menus {
+  background:gray;
+  min-height:30px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  float: left;
+  padding: 5px;
+}
+
 .left_side {
+  clear: both;
   background: magenta;
   min-height:300px;
   width:720px;
