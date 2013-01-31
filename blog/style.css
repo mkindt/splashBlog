@@ -2,10 +2,27 @@ body {
   font-family: sans-serif;
   background: #0d0b1a;
   //background: #373333;
+  //line-height:130%;
+}
+h3{
+  margin: 0;
+  padding: 40px 25px 1px 15px;
+}
+
+h4{
+  margin: 0;
+  padding: 2px 25px 2px 25px;
+}
+
+h5{
+  margin: 0;
+  padding: 2px 25px 2px 25px;
+  font-weight: normal;
 }
 .content {
   width: 960px;
   margin: auto;
+  background: #999999;
 }
 
 .header {
@@ -40,24 +57,17 @@ li {
 .left_side {
   clear: left;
   background: white;
-  //min-height:300px;
+  min-height:725px;
   width:715px;
   float: left;
   padding:0 0 0 5px;
+  color: #0d0b1a;
 
 }
-h3{
-  margin: 0;
-  padding: 10px 25px 1px 15px;
-}
-
-h4{
-  margin: 0;
-  padding: 2px 25px 2px 25px;
-}
-.left_side p{
+.left_side p {
   margin: 4px;
   padding: 0 25px 0 15px;
+  font-size:12pt;
 }
 
 .right_side {
@@ -65,7 +75,7 @@ h4{
   background: #999999;
   padding:0 5px 0 5px;
   /* or padding: 0 5px; */
-  min-height:300px;
+  min-height:725px;
   width:230px;
   float: right;
   //color: #9d9989;
@@ -73,15 +83,20 @@ h4{
  
 
 }
-.right_side, .left_side{
-  min-height:300px;
-  height:auto;
-}
 
 .right_side p{
-  text-align: center;
+  padding: 0 25px 0 60px;
 }
 
+.right_side h3 {
+  padding: 25px 25px 0 40px;
+  color: #4c678c;
+}
+
+.right_side h4 {
+  padding: 25px 25px 0 40px;
+  color: #4c678c;
+}
 .bottom {
   //clear: left;
   background: #555555;
