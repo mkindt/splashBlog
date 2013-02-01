@@ -2,6 +2,10 @@ body {
   font-family: sans-serif;
   background: #0d0b1a;
 }
+a{
+  text-decoration: none;
+  color: #9d9989;
+}
 h3{
   margin: 0;
   padding: 40px 25px 1px 15px;
